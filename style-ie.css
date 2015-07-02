@@ -1,0 +1,8 @@
+#subnav {
+	float: left;
+	width: 148px;
+	height: 463px;
+	padding: 10px 0 0 20px;
+	background: url(images/bg_subnav.gif) bottom no-repeat #0e2361;
+	color: #fff;
+}

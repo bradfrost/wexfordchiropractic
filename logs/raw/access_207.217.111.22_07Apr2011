@@ -1,0 +1,5 @@
+95.25.189.161 - - [07/Apr/2011:02:43:35 -0700] "GET /styles.css HTTP/1.0" 200 5112 "http://wexfordchiropractic.com/" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)"
+193.46.86.228 - - [07/Apr/2011:07:15:11 -0700] "GET /styles.css HTTP/1.1" 200 5112 "http://wexfordchiropractic.com/" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.16) Gecko/20110323 Ubuntu/10.04 (lucid) Firefox/3.6.16 GTB7.1"
+193.46.86.228 - - [07/Apr/2011:07:15:11 -0700] "GET /images/content_chiropractic.jpg HTTP/1.1" 200 8104 "http://wexfordchiropractic.com/" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.16) Gecko/20110323 Ubuntu/10.04 (lucid) Firefox/3.6.16 GTB7.1"
+69.58.178.59 - - [07/Apr/2011:12:26:41 -0700] "GET / HTTP/1.1" 200 6470 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.3; ips-agent) Gecko/20090824 Fedora/1.0.7-1.1.fc4  Firefox/3.5.3"
+69.58.178.59 - - [07/Apr/2011:12:31:35 -0700] "GET /newpatient.html HTTP/1.1" 200 6080 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.3; ips-agent) Gecko/20090824 Fedora/1.0.7-1.1.fc4  Firefox/3.5.3"

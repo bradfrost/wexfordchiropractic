@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- TemplateBeginEditable name="title" --><title>Wexford Chiropractic Centre | Providing Chiropractic and Nutritional Care to the Pittsburgh Area</title><!-- TemplateEndEditable -->
+<link href="../stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="container">
+  <div id="header">
+  <ul>
+  <li><a href="../index.html">Home</a></li>
+  <li><a href="../chiropractic.html">Chiropractic</a></li>
+  <li><a href="../nutrition.html">Nutrition</a></li>
+  <li><a href="../events.html">Events</a></li>
+  <li><a href="../contact.html">Contact/Find Us</a></li>
+  </ul></div>
+  <!-- TemplateBeginEditable name="content" -->
+  
+  <div id="content">
+  </div>
+  
+  
+  <!-- TemplateEndEditable -->
+  <div id="footer">
+  <ul>
+  <li><a href="../index.html">Home</a></li>
+  <li><a href="../chiropractic.html">Chiropractic</a></li>
+  <li><a href="../nutrition.html">Nutrition</a></li>
+  <li><a href="../events.html">Events</a></li>
+  <li><a href="../contact.html">Contact/Find Us</a></li>
+  </ul>
+  <p class="top"><a href="mailto:info@wexfordchiropractic.com">Wexford Chiropractic
+      Centre</a> 130 Wexford Bayne Road (Route 910), Wexford, PA 15090</p>
+  <p>Phone: 724-935-1610 | Fax: 724/935-2295</p>
+  </div>
+</div>
+<div id="copy">&copy; Copyright Wexford Chiropractic Centre 2007</div>
+</body>
+</html>

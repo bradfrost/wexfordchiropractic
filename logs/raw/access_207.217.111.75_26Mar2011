@@ -1,0 +1,2 @@
+87.250.254.243 - - [26/Mar/2011:05:36:18 -0700] "GET /backpain.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+207.46.13.94 - - [26/Mar/2011:09:27:17 -0700] "GET /robots.txt HTTP/1.1" 404 216 "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"

@@ -1,0 +1,407 @@
+<style>
+P {font: normal 12px "Arial", "Helvetica"; color: #000000}
+.body {
+	font-weight: normal;
+	font-size: 12px;
+	color: #000000;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.B {
+	font-weight : bold;
+}
+.N {font: normal 12px "Arial", "Helvetica"; color: #000000}
+.C {
+	text-align : center;
+}
+.I {
+	font-style : italic;
+}
+.L {
+	font-size : large;
+}
+.M {
+	font-size : medium;
+}
+.select {font: normal 11px "Arial", "Helvetica"; color: #000000}
+.selectb {font: bold 11px "Arial", "Helvetica"; color: #000000}
+.head {
+	font: bold italic x-large Mistral;
+	color: #000066
+}
+.homeHead {font: bold 15px "Arial", "Helvetica"; color: #CC6600}
+.subhead {font: bold 13px "Arial", "Helvetica"; color: #006699}
+.subheadit {font: bold italic 13px "Arial", "Helvetica"; color: #006699}
+.prtitle {font: bold 13px/16px "Arial", "Helvetica"; color: #666666}
+.prsubhead {font: bold italic 11px "Arial", "Helvetica"; color: #999999}
+.homeSpotlightHdr {font: bold 13px/16px "Arial", "Helvetica"; color: #516079}
+
+
+.homeSpotLink {font: bold 11px "Arial", "Helvetica"; color: #996600;text-decoration:none;} 
+a.homeSpotLink {font: bold 11px "Arial", "Helvetica"; color: #996600;text-decoration:underline;} 
+.homeSpotLink:hover {font: bold 11px "Arial", "Helvetica"; color: #996600;text-decoration:none;} 
+.homeSpotLink:active {font: bold 11px "Arial", "Helvetica"; color: #996600;text-decoration:none;} 
+.homeSpotLink:visited {font: bold 11px "Arial", "Helvetica"; color: #996600;text-decoration:underline;} 
+.homeSpotLink:visited:hover {font: bold 11px "Arial", "Helvetica"; color: #996600;text-decoration:none;} 
+
+
+.homeSmall {font: normal 10px "Arial", "Helvetica"; color: #333333;} 
+a.homeSmall {font: normal 10px "Arial", "Helvetica"; color: #333333;text-decoration:underline;} 
+.homeSmall:hover {font: normal 10px "Arial", "Helvetica"; color: #333333;text-decoration:none;} 
+.homeSmall:active {font: normal 10px "Arial", "Helvetica"; color: #333333;text-decoration:none;} 
+.homeSmall:visited {font: normal 10px "Arial", "Helvetica"; color: #333333;text-decoration:underline;} 
+.homeSmall:visited:hover {font: normal 10px "Arial", "Helvetica"; color: #333333;text-decoration:none;} 
+
+.tele {font: normal 11px "Arial", "Helvetica"; color: #006699;text-decoration:none;} 
+A.tele {font: normal 11px "Arial", "Helvetica"; color: #006699;text-decoration:underline;} 
+.tele:hover {font: normal 11px "Arial", "Helvetica"; color: #006699;text-decoration:none;} 
+.tele:active {font: normal 11px "Arial", "Helvetica"; color: #006699;text-decoration:underline;} 
+.tele:visited {font: normal 11px "Arial", "Helvetica"; color: #006699;text-decoration:underline;} 
+.tele:visited:hover {font: normal 11px "Arial", "Helvetica"; color: #006699;text-decoration:none;} 
+
+.layer {font: normal 12px "Arial", "Helvetica"; color: #333333;text-decoration:none;} 
+.layer:hover {font: normal 12px "Arial", "Helvetica"; color: #333333;text-decoration:underline;} 
+.layer:active {font: normal 12px "Arial", "Helvetica"; color: #333333;text-decoration:none;} 
+.layer:visited {font: normal 12px "Arial", "Helvetica"; color: #333333;text-decoration:none;} 
+.layer:visited:hover {font: normal 12px "Arial", "Helvetica"; color: #333333;text-decoration:underline;} 
+
+.greyboxbold {font: bold 12px "Arial", "Helvetica"; color: #FFFFFF;} 
+.whiteBoldLarge {font: bold 13px "Arial", "Helvetica"; color: #FFFFFF;}
+
+.smgreybox {font: normal 11px "Arial", "Helvetica"; color: #FFFFFF;} 
+.smgreybox:hover {font: normal 11px "Arial", "Helvetica"; color: #CCCCCC;} 
+.smgreybox:active {font: normal 11px "Arial", "Helvetica"; color: #FFFFFF;} 
+.smgreybox:visited {font: normal 11px "Arial", "Helvetica"; color: #CCCCCC;} 
+.smgreybox:visited:hover {font: normal 11px "Arial", "Helvetica"; color: #CCCCCC;}
+
+
+.greybox {font: normal 12px "Arial", "Helvetica"; color: #000033;} 
+.greybox:hover {font: normal 12px "Arial", "Helvetica"; color: #CCCCCC;} 
+.greybox:active {font: normal 12px "Arial", "Helvetica"; color: #000033;} 
+.greybox:visited {font: normal 12px "Arial", "Helvetica"; color: #CCCCCC;} 
+.greybox:visited:hover {font: normal 12px "Arial", "Helvetica"; color: #CCCCCC;} 
+
+.footer {font: normal 10px "Arial", "Helvetica"; color: #000033;} 
+.footer:hover {font: normal 10px "Arial", "Helvetica"; color: #000033;} 
+.footer:active {font: normal 10px "Arial", "Helvetica"; color: #000033;} 
+.footer:visited {font: normal 10px "Arial", "Helvetica"; color: #CCCCCC;} 
+.footer:visited:hover {font: normal 10px "Arial", "Helvetica"; color: #ffffff;}
+
+.homeDate {font: bold 11px "Arial", "Helvetica"; color: #516079}
+.small {font: normal 10px "Arial", "Helvetica"}
+.blue {font: bold 14px "Arial", "Helvetica"; color: #003265}
+.nobreak {font: normal 12px "Arial", "Helvetica"; color: #000000}
+.mediumblack {font: normal 11px "Arial", "Helvetica"; color: #000000}
+.mediumblackBold {font: bold 11px "Arial", "Helvetica"; color: #000000}
+.mediumwhite {font: normal 11px "Arial", "Helvetica"; color: #ffffff}
+.mediumwhiteBold {font: bold 11px "Arial", "Helvetica"; color: #ffffff}
+.smallwhiteBold {font: bold 10px "Arial", "Helvetica"; color: #ffffff}
+
+
+	 
+	 
+     .primary
+     {
+     position: absolute;
+     left: 0;
+     top: 132;
+     z-index: 1;
+     width: 770;
+     height: 18;
+     visibility: visible;
+     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     
+     }
+     
+	 /*about*/
+	 .layer1
+     {
+     position: absolute;
+     left: 1;
+     top: 120;
+     z-index: 0;
+     width: 225;
+     height: 300;
+     visibility: hidden;
+     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     
+     }
+	 
+     .layer2
+     {
+     position: absolute;
+     left: 14;
+     top: 150;
+     z-index: 2;
+     width: 182;
+     height: 188;
+     visibility: hidden;
+     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     }
+	 
+	 
+	 
+     
+	
+	 /*membership*/
+	 
+	 .layer3
+     {
+     position: absolute;
+     left: 82;
+     top: 120;
+     z-index: 0;
+     width: 220;
+     height: 300;
+     visibility: hidden;
+     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     
+     }
+	 
+     .layer4
+     {
+     position: absolute;
+     left: 97;
+     top: 150;
+     z-index: 2;
+     width: 222;
+     height: 150;
+     visibility: hidden;
+     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     }
+	 
+	 
+	 /*publications*/
+	 .layer5
+     {
+     position: absolute;
+     left: 175;
+     top: 120;
+     z-index: 0;
+     width: 225;
+     height: 230;
+     visibility: hidden;
+     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     
+     }
+	 
+	 .layer6
+     {
+     position: absolute;
+     left: 191;
+     top: 150;
+     z-index: 2;
+     width: 192;
+     height: 117;
+     visibility: hidden;
+     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     }
+	 
+	 
+	 
+	 
+	 /*media*/
+	 .layer7
+     {
+     position: absolute;
+     left: 265;
+     top: 120;
+     z-index: 0;
+     width: 225;
+     height: 285;
+     visibility: hidden;
+     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     
+     }
+	 
+	 .layer8
+     {
+     position: absolute;
+     left: 282;
+     top: 150;
+     z-index: 2;
+     width: 192;
+     height: 193;
+     visibility: hidden;
+     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     }	 
+	 
+	 
+	 
+	 /*government*/
+	 
+	 .layer9
+     {
+     position: absolute;
+     left: 400;
+     top: 120;
+     z-index: 0;
+     width: 225;
+     height: 250;
+     visibility: hidden;
+     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     
+     }
+	 
+	 .layer10
+     {
+     position: absolute;
+     left: 417;
+     top: 150;
+     z-index: 2;
+     width: 192;
+     height: 132;
+     visibility: hidden;
+     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     }	 
+	 
+	 
+	 
+	 
+	 
+	 /*insurance*/
+	 
+	 .layer11
+     {
+     position: absolute;
+     left: 495;
+     top: 120;
+     z-index: 0;
+     width: 250;
+     height: 250;
+     visibility: hidden;
+     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     
+     }
+	 
+	 .layer12
+     {
+     position: absolute;
+     left: 510;
+     top: 150;
+     z-index: 2;
+     width: 222;
+     height: 132;
+     visibility: hidden;
+     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     }	
+     
+	 
+	 /*acapac*/
+	 
+	 .layer13
+     {
+     position: absolute;
+     left: 585;
+     top: 120;
+     z-index: 0;
+     width: 160;
+     height: 160;
+     visibility: hidden;
+     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     
+     }
+	 
+     	 .layer14
+     {
+     position: absolute;
+     left: 600;
+     top: 150;
+     z-index: 2;
+     width: 132;
+     height: 117;
+     visibility: hidden;
+     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     }	 	 
+  </style>
+<script language="JavaScript">
+<!--
+<!--
+
+if (document.images) {
+  image1on = new Image();
+  image1on.src = "graphics/buttons/button1_1a.gif";
+
+  image2on = new Image();
+  image2on.src = "graphics/buttons/button2_1a.gif";
+
+  image3on = new Image();
+  image3on.src = "graphics/buttons/button3_1a.gif";
+
+  image4on = new Image();
+  image4on.src = "graphics/buttons/button4_1a.gif";
+
+  image5on = new Image();
+  image5on.src = "graphics/buttons/button5_1a.gif";
+
+  image6on = new Image();
+  image6on.src = "graphics/buttons/button6_1a.gif";
+
+  image1off = new Image();
+  image1off.src = "graphics/buttons/button1a.gif";
+
+  image2off = new Image();
+  image2off.src = "graphics/buttons/button2a.gif";
+
+  image3off = new Image();
+  image3off.src = "graphics/buttons/button3a.gif";
+
+  image4off = new Image();
+  image4off.src = "graphics/buttons/button4a.gif";
+
+  image5off = new Image();
+  image5off.src = "graphics/buttons/button5a.gif";
+
+  image6off = new Image();
+  image6off.src = "graphics/buttons/button6a.gif";
+
+}
+
+function changeImages() {
+  if (document.images) {
+    for (var i=0; i<changeImages.arguments.length; i+=2) {
+      document[changeImages.arguments[i]].src = eval(changeImages.arguments[i+1] + ".src");
+    }
+  }
+}
+
+// -->
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>

@@ -1,0 +1,3 @@
+67.195.115.158 - - [07/Apr/2011:02:25:49 -0700] "GET /exercise.html HTTP/1.0" 200 4537 "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
+95.25.189.161 - - [07/Apr/2011:02:43:33 -0700] "GET / HTTP/1.0" 200 6470 "http://yandex.ru/yandsearch?text=wexfordchiropractic.com" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)"
+67.165.40.252 - - [07/Apr/2011:04:29:07 -0700] "GET /images/content_halfhour.jpg HTTP/1.1" 200 8198 "http://www.wexfordchiropractic.com/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; CPNTDF; .NET4.0C; BRI/1; BRI/2)"
