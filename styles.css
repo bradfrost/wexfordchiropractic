@@ -1,3 +1,12 @@
+/*
+Colors
+
+orange: #c56600
+blue: #0e2361
+
+
+*/
+
 body {
 	margin: 0;
 	padding: 0;
@@ -17,6 +26,14 @@ h1 {
 	font-size: 2em;
 	margin: 0 0 0.5em;
 	border-bottom: 1px solid #ddd;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size:  1.4em;
 }
 
 a {
@@ -207,16 +224,6 @@ img {
 	margin-left: 160px;
 }
 
-.content h2 {
-	font-size: 14px;
-	margin: 0 0 5px 0px;
-}
-
-.content h3 {
-	font-size: 13px;
-	margin: 0;
-}
-
 .content p {
 	margin: 4px 0 12px 0;
 	padding-right: 20px;
@@ -256,7 +263,7 @@ img {
 	color: #666666;
 }
 
-/*css vertical dropdown menu*/
+/* Navigation */
 
 .nav {
 	height: 25px;
@@ -291,7 +298,6 @@ img {
 	top: 30;
 	left: 50;
 }
-
 
 .nav ul ul {
 	position: relative;
