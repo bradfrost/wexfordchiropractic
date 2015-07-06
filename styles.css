@@ -1,17 +1,22 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Arial, Helvetica, sans-serif;
-	background: #fff;
-	font-size: 11.5px;
+	font: 110%/1.4 "HelveticaNeue","Helvetica","Arial",sans-serif;
+	background: #eee;
 }
 
 p {
-	font-size: 12px;
+	margin: 0 0 1em;
 }
 
 h1, h2, h3, h4 {
-	color: #F00;	
+	color: #c56600;	
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0 0 0.5em;
+	border-bottom: 1px solid #ddd;
 }
 
 a {
@@ -20,6 +25,8 @@ a {
 
 img {
 	border:none;
+	max-width: 100%;
+	height: auto;
 }
 
 .imgLeft {
@@ -34,11 +41,12 @@ img {
 	padding:0px 0px 10px 10px;
 }
 
-#container {
+.container {
 	position:relative;
+	margin: 0 auto;
 }
 
-#apDiv-facebook {
+.apDiv-facebook {
 	position:absolute;
 	width:30px;
 	height:30px;
@@ -47,16 +55,20 @@ img {
 	top:5px;
 }
 
-#subnav {
+.headerimage img {
+	margin: 0;
+	display: block;
+}
+
+.subnav {
 	float: left;
 	width: 148px;
-	height: 463px;
 	padding: 30px 0 0 20px;
 	background: #0e2361;
 	color: #fff;
 }
 
-#subnav h2 {
+.subnav h2 {
 	font-size: 18px;
 	font-weight: normal;
 	font-style: italic;
@@ -67,104 +79,89 @@ img {
 	padding-bottom: 4px;
 }
 
-#subnav ul {
+.subnav ul {
 	padding: 0;
 	margin: 0;
 }
 
-#subnav li {
+.subnav li {
 	list-style: square;
 	padding: 0;
 	margin: 0 0 3px 0;
 }
 
-#subnav a{
+.subnav a {
 	color: #fff;
-	font-size: 11px;
+	text-decoration: none;
 }
 
-#subnav a:hover{
+.subnav a:hover{
 	color: #F00;
 }
 
-#subnav img {
+.subnav img {
 	margin: 12px 0 0 -10px;
 	border: 0;
 }
 
-#subnav img.angies {
+.subnav img.angies {
 	margin: 0px 0 0 -10px;
 	border: 0;
 }
 
-#mission {
+.mission {
 	width: 595px;
 	padding: 34px 60px 20px 27px;
-	background: url(images/bg_content.gif) no-repeat;	
 	float:left;
 	display: inline;
 	margin-bottom: 80px;
 }
 
-#mission h1 {
-	font-size: 16px;
-	margin: 0 0 6px 0;
-}
-
-#mission p {
+.mission p {
 	width: 197px;
 	margin: 0;
 }
 
-#mission h2 a{
-	color: #F00;
-	text-decoration: none;
-}
-
-#mission h2 a:hover{
-	color: #0e2361;
-}
-
-#homecontent {
+.homecontent {
 	float: right; 
 	display: inline;
 	width: 346px;
 }
 
 /*HOME CONTENT BOXES*/
-#nutrition img, #chiropractic img, #radio img, #halfhour img {
+.nutrition img, .chiropractic img, .radio img, .halfhour img {
 	float: left;
 	display: inline;
 	margin-right: 10px;
 }
 
-#nutrition  h2, #chiropractic h2, #radio h2, #halfhour h2 {
+.nutrition h2, .chiropractic h2, .radio h2, .halfhour h2 {
 	font-size: 13px;
 	margin: 0;
 }
 
-#nutrition p, #chiropractic p, #radio p, #halfhour p {
+.nutrition p, .chiropractic p, .radio p, .halfhour p {
 	float: right;
 	margin: 0 0 0 0;
 }
 
-#radio p {
+.radio p {
 	width: 253px;
 }
 
-#halfhour p {
+.halfhour p {
 	width: 376px;
 }
 
-#chiropractic p{
+.chiropractic p {
 	width: 152px;
 }
 
-#nutrition p{
+.nutrition p {
 	width: 175px;
 }
 
-#nutrition, #chiropractic, #radio, #halfhour{
+.nutrition, .chiropractic, .radio, .halfhour{
 	width: 300px;
 	float: right;
 	display: inline;
@@ -173,19 +170,19 @@ img {
 	height: 81px;
 }
 
-#nutrition {
+.nutrition {
 	margin-right: -30px;
 	width: 320px;
 	margin-bottom: 75px;
 }
 
-#chiropractic, #radio, #halfhour{
+.chiropractic, .radio, .halfhour{
 	clear: right;
 	margin-right: 30px;
 	margin-bottom: 65px;
 }
 
-#radio {
+.radio {
 	float: right; 
 	display: inline;
 	margin-bottom: 55px;
@@ -195,7 +192,7 @@ img {
 	width: 400px;
 }
 
-#halfhour {
+.halfhour {
 	float: right; 
 	display: inline;
 	margin-bottom: 0;
@@ -205,35 +202,27 @@ img {
 	width: 520px;
 }
 
-#content {
+.content {
 	padding: 34px 69px 20px 42px;
-	margin-bottom: 30px;
+	margin-left: 160px;
 }
 
-#content h1 {
-	font-size: 16px;
-	margin: 0 0 9px 0px;
-	border-bottom: 1px solid #0e2361;
-	background: url(images/bg_h1.gif) no-repeat; 
-	padding-left: 23px;
-}
-
-#content h2 {
+.content h2 {
 	font-size: 14px;
 	margin: 0 0 5px 0px;
 }
 
-#content h3 {
+.content h3 {
 	font-size: 13px;
 	margin: 0;
 }
 
-#content p {
+.content p {
 	margin: 4px 0 12px 0;
 	padding-right: 20px;
 }
 
-#content ul {
+.content ul {
 	margin: 0 80px 40px 0;
 	background: #B0CAE5;
 	color: #0e2361;
@@ -246,49 +235,46 @@ img {
 	width: 180px;
 }
 
-#content li {
+.content li {
 	list-style: square;
 	margin: 0;
 	padding: 0;
 }
 
-#footer {
+.footer {
 	clear: both;
-	height: 180px;
 	padding-top: 5px;
 	text-align: center;
 }
 
-#footer h3 {
-	font-size: 10px;
+.footer h3 {
 	color: #696969;
 	margin: 0;
 }
 
 .backtotop {
-	font-size: 10px;
 	color: #666666;
 }
 
 /*css vertical dropdown menu*/
 
-#nav {
+.nav {
 	height: 25px;
 	padding-top: 11px;
 }
 
-#nav ul {
+.nav ul {
 	margin: 0;
 	padding: 0;
 }
 
-#nav li {
+.nav li {
 	display: inline;
 	list-style: none;
 	padding: 0 20px 0 15px;
 }
 
-#nav a {
+.nav a {
 	color: #001b69;
 	text-decoration: none;
 	font-weight: bold;
@@ -296,18 +282,18 @@ img {
 	padding: 0 0 15px 0;
 }
 
-#nav a:hover {
+.nav a:hover {
 	color: #F00;
 }
 
-#nav ul ul{
+.nav ul ul {
 	position: absolute;
 	top: 30;
 	left: 50;
 }
 
 
-#nav ul ul{
+.nav ul ul {
 	position: relative;
 	top: 0;
 	left: 0;
@@ -315,7 +301,7 @@ img {
 	padding: 0;
 }
 
-div#nav ul ul {
+.nav ul ul {
 	display: none;
 	margin: 0;
 	padding: 0;
@@ -323,48 +309,47 @@ div#nav ul ul {
 	border: 1px solid #001b69;
 }
 
-div#nav ul ul li {
+.nav ul ul li {
 	margin: 0;
 	display: block;
 	padding: 0;
 }
 
-div#nav ul ul li a {
+.nav ul ul li a {
 	width: 100%;
 	display: block;
 }
 
-div#nav ul li:hover ul {
+.nav ul li:hover ul {
 	display: block; 
 	position:absolute;
 }
 
 
-div#nav ul li:hover ul{
+.nav ul li:hover ul{
 	display: block;
 	margin:28px 0 0 135px;
 	padding: 0;
 }
 
-div#nav ul li:hover ul a {
+.nav ul li:hover ul a {
 	padding: 5px;
 }
 
-div#nav ul li:hover ul a:hover {
+.nav ul li:hover ul a:hover {
 	width: 140px;
 	background: #001b69;
 	color: #fff;
 }
 
-#nav li ul li a {
+.nav li ul li a {
 	font-size:12px;
 }
 
-p.quote{
+.quote{
 	background: #B0CAE5 url(images/bg_quote.gif) no-repeat;
 	font-style: italic;
 	color: #0e2361;
-	font-size: 12px;
 	padding: 10px 10px 10px 40px;
 	width: 150px;
 	float: right;
@@ -398,7 +383,7 @@ p.quote{
 	width: 300px;
 }
 
-#contact ul.events {
+.contact ul.events {
 	float: left;
 }
 
