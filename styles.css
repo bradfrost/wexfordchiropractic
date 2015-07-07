@@ -11,7 +11,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font: 110%/1.4 "HelveticaNeue","Helvetica","Arial",sans-serif;
-	background: #eee;
+	background: #0E2361;
 }
 
 p {
@@ -39,6 +39,20 @@ h3 {
 a {
 	color: #0E2361;
 }
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
 
 img {
 	border:none;
@@ -68,7 +82,7 @@ img {
 	width:30px;
 	height:30px;
 	z-index:1;
-	left: 790px;
+	left: 760px;
 	top:5px;
 }
 
@@ -126,19 +140,6 @@ img {
 	border: 0;
 }
 
-.mission {
-	width: 595px;
-	padding: 34px 60px 20px 27px;
-	float:left;
-	display: inline;
-	margin-bottom: 80px;
-}
-
-.mission p {
-	width: 197px;
-	margin: 0;
-}
-
 .homecontent {
 	float: right; 
 	display: inline;
@@ -146,82 +147,27 @@ img {
 }
 
 /*HOME CONTENT BOXES*/
-.nutrition img, .chiropractic img, .radio img, .halfhour img {
+.halfhour img {
 	float: left;
 	display: inline;
 	margin-right: 10px;
 }
 
-.nutrition h2, .chiropractic h2, .radio h2, .halfhour h2 {
-	font-size: 13px;
-	margin: 0;
-}
-
-.nutrition p, .chiropractic p, .radio p, .halfhour p {
-	float: right;
-	margin: 0 0 0 0;
-}
-
-.radio p {
-	width: 253px;
-}
-
-.halfhour p {
-	width: 376px;
-}
-
-.chiropractic p {
-	width: 152px;
-}
-
-.nutrition p {
-	width: 175px;
-}
-
-.nutrition, .chiropractic, .radio, .halfhour{
-	width: 300px;
-	float: right;
-	display: inline;
-	margin-bottom: 45px;
-	margin-top: 0;
-	height: 81px;
-}
-
-.nutrition {
-	margin-right: -30px;
-	width: 320px;
-	margin-bottom: 75px;
-}
-
-.chiropractic, .radio, .halfhour{
-	clear: right;
-	margin-right: 30px;
-	margin-bottom: 65px;
-}
-
-.radio {
-	float: right; 
-	display: inline;
-	margin-bottom: 55px;
-	margin-top: 0;
-	margin-right: 10px;
-	height: 81px;
-	width: 400px;
-}
 
 .halfhour {
-	float: right; 
-	display: inline;
+	display: block;
 	margin-bottom: 0;
 	margin-top: 0;
-	margin-right: 70px;
-	height: 81px;
-	width: 520px;
+	padding:12px;
+}
+
+.halfhour h2{
+	margin-top:0;
 }
 
 .content {
 	padding: 34px 69px 20px 42px;
-	margin-left: 160px;
+	background: #eee;
 }
 
 .content p {
@@ -248,10 +194,19 @@ img {
 	padding: 0;
 }
 
+.content li.title {
+	list-style: none;
+	font-weight:bold;
+}
+
 .footer {
 	clear: both;
-	padding-top: 5px;
+	padding-top: 25px;
 	text-align: center;
+}
+
+.footer p{
+	color:#999;
 }
 
 .footer h3 {
@@ -266,8 +221,7 @@ img {
 /* Navigation */
 
 .nav {
-	height: 25px;
-	padding-top: 11px;
+	padding: 11px 0;
 }
 
 .nav ul {
@@ -291,6 +245,10 @@ img {
 
 .nav a:hover {
 	color: #F00;
+}
+
+.nav>ul>li>a {
+	color: #eee;
 }
 
 .nav ul ul {
