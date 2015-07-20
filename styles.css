@@ -3,7 +3,7 @@ Colors
 
 orange: #c56600
 blue: #0e2361
-
+lightblue: #B0CAE8
 
 */
 
@@ -11,7 +11,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font: 110%/1.4 "HelveticaNeue","Helvetica","Arial",sans-serif;
-	background: #eee;
+	background: #fff;
 }
 
 p {
@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-	font-size:  1.4em;
+	font-size: 1.4em;
 }
 
 a {
@@ -58,9 +58,129 @@ img {
 	padding:0px 0px 10px 10px;
 }
 
+/* Layout */
 .container {
 	position:relative;
 	margin: 0 auto;
+}
+
+/* Header */
+header[role=banner] {
+	background: #B0CAE8;
+	text-align: center;
+	padding: 1em;
+	border-bottom: 1px solid #0e2361;
+	margin-bottom: 1em;
+}
+
+.headerimage img {
+	width: 100%;
+	margin: 0;
+	display: block;
+}
+
+.logo {
+	display: inline-block;
+	background: rgba(0,0,0,0.05);
+	border-radius: 0.5em;
+	padding: 1em;
+	text-decoration: none;
+	margin-bottom: 1em;
+	color: #0e2361;
+}
+
+.logo h3, .logo h4 {
+	color: #0e2361;
+	margin: 0;
+	padding: 0;
+}
+
+.logo h4 {
+	font-size: 80%;
+	font-family: Georgia, serif;
+	font-style: italic;
+}
+
+/* Navigation */
+.nav {
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+	display: inline;
+	list-style: none;
+	padding: 0 20px 0 15px;
+	position: relative;
+}
+
+.nav a {
+	color: #001b69;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0 0 15px 0;
+}
+
+.nav a:hover {
+	color: #F00;
+}
+
+.nav ul ul {
+	position: absolute;
+	top: 30;
+	left: 50;
+}
+
+.nav ul ul {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 150px;
+	padding: 0;
+}
+
+.nav ul ul {
+	display: none;
+	margin: 0;
+	padding: 0;
+	background: #ededed;
+	border: 1px solid #001b69;
+}
+
+.nav ul ul li {
+	margin: 0;
+	display: block;
+	padding: 0;
+}
+
+.nav ul ul li a {
+	width: 100%;
+	display: block;
+}
+
+.nav ul li:hover ul {
+	display: block; 
+	position:absolute;
+}
+
+
+.nav ul li:hover ul{
+	display: block;
+	margin: 28px 0 0 0;
+	padding: 0;
+}
+
+.nav ul li:hover ul a {
+	padding: 5px;
+}
+
+.nav ul li:hover ul a:hover {
+	width: 140px;
+	background: #001b69;
+	color: #fff;
 }
 
 .apDiv-facebook {
@@ -72,11 +192,6 @@ img {
 	top:5px;
 }
 
-.headerimage img {
-	margin: 0;
-	display: block;
-}
-
 .subnav {
 	float: left;
 	width: 148px;
@@ -86,10 +201,8 @@ img {
 }
 
 .subnav h2 {
-	font-size: 18px;
 	font-weight: normal;
 	font-style: italic;
-	line-height: 18px;
 	color: #fff;
 	border-bottom: 1px solid #374B7F;
 	margin: 0 0 10px 0;
@@ -139,13 +252,27 @@ img {
 	margin: 0;
 }
 
+/* Footer */
+footer[role=contentinfo] {
+	background: #0e2361;
+	color: #fff;
+	clear: both;
+	padding: 1em;
+	text-align: center;
+}
+
+footer[role=contentinfo] h3 {
+	color: #696969;
+	margin: 0;
+}
+
+/*HOME CONTENT BOXES*/
 .homecontent {
 	float: right; 
 	display: inline;
 	width: 346px;
 }
 
-/*HOME CONTENT BOXES*/
 .nutrition img, .chiropractic img, .radio img, .halfhour img {
 	float: left;
 	display: inline;
@@ -220,26 +347,14 @@ img {
 }
 
 .content {
-	padding: 34px 69px 20px 42px;
-	margin-left: 160px;
+	max-width: 55em;
+	margin: 0 auto;
+	padding: 1em;
 }
 
 .content p {
 	margin: 4px 0 12px 0;
 	padding-right: 20px;
-}
-
-.content ul {
-	margin: 0 80px 40px 0;
-	background: #B0CAE5;
-	color: #0e2361;
-	font-size: 12px;
-	padding: 10px 10px 10px 20px;
-	width: 230px;
-	float: right;
-	margin: 0 0 0 30px;
-	display: block;
-	width: 180px;
 }
 
 .content li {
@@ -248,148 +363,39 @@ img {
 	padding: 0;
 }
 
-.footer {
-	clear: both;
-	padding-top: 5px;
-	text-align: center;
-}
-
-.footer h3 {
-	color: #696969;
-	margin: 0;
-}
-
 .backtotop {
 	color: #666666;
 }
 
-/* Navigation */
-
-.nav {
-	height: 25px;
-	padding-top: 11px;
-}
-
-.nav ul {
-	margin: 0;
-	padding: 0;
-}
-
-.nav li {
-	display: inline;
-	list-style: none;
-	padding: 0 20px 0 15px;
-}
-
-.nav a {
-	color: #001b69;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 14px;
-	padding: 0 0 15px 0;
-}
-
-.nav a:hover {
-	color: #F00;
-}
-
-.nav ul ul {
-	position: absolute;
-	top: 30;
-	left: 50;
-}
-
-.nav ul ul {
-	position: relative;
-	top: 0;
-	left: 0;
-	width: 150px;
-	padding: 0;
-}
-
-.nav ul ul {
-	display: none;
-	margin: 0;
-	padding: 0;
-	background: #ededed;
-	border: 1px solid #001b69;
-}
-
-.nav ul ul li {
-	margin: 0;
-	display: block;
-	padding: 0;
-}
-
-.nav ul ul li a {
-	width: 100%;
-	display: block;
-}
-
-.nav ul li:hover ul {
-	display: block; 
-	position:absolute;
-}
-
-
-.nav ul li:hover ul{
-	display: block;
-	margin:28px 0 0 135px;
-	padding: 0;
-}
-
-.nav ul li:hover ul a {
-	padding: 5px;
-}
-
-.nav ul li:hover ul a:hover {
-	width: 140px;
-	background: #001b69;
-	color: #fff;
-}
-
-.nav li ul li a {
-	font-size:12px;
-}
-
-.quote{
+.quote {
 	background: #B0CAE5 url(images/bg_quote.gif) no-repeat;
 	font-style: italic;
 	color: #0e2361;
 	padding: 10px 10px 10px 40px;
-	width: 150px;
+	width: 250px;
 	float: right;
 	margin: 0 0 0 50px;
 	display: block;
 	border: 1px solid #0e2361;
+	border-radius: 10px;
 }
 
 .name {
 	color: #667DA8;
-	font-size: 15px;
 	letter-spacing: .25em;
 	font-weight: bold;
 }
 
-.contact {
+.callout {
 	background: #B0CAE5;
-	font-size: 13px;
-	color: #0e2361;
-	padding: 10px;
-	border: 1px solid #0e2361;
-}
-
-.contact2 {
-	background: #B0CAE5;
-	font-size: 13px;
 	font-weight: bold;
 	color: #0e2361;
-	padding: 10px;
+	padding: 1em;
 	border: 1px solid #0e2361;
-	width: 300px;
+	border-radius: 10px;
 }
 
-.contact ul.events {
+.contact .events {
 	float: left;
 }
 
