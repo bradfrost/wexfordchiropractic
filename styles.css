@@ -291,8 +291,15 @@ linear-gradient(90deg, transparent 50%, rgba(255,255,255,.02) 50%);
 
 footer h2 {
 	margin: 0 0 0.5em;
-	color: #f4e0ba;
 	font-size: 1.2em;
+}
+
+footer h2 a {
+	color: #f4e0ba;
+}
+
+footer h2 a:hover {
+	color: #f9f5ef;
 }
 
 footer a {
@@ -319,10 +326,9 @@ footer li {
 .footer-section {
 	font-size: 0.9em;
 	padding: 1em;
-	margin-bottom: 1em;
 }
 
-@media all and (min-width: 34em) {
+@media all and (min-width: 40em) {
 	.footer-container {
 		display: flex;
 	}
@@ -348,10 +354,20 @@ footer li {
 	max-width: 42em;
 }
 
+.text ul {
+	padding: 0 0 0 1em;
+	margin: 0 0 1em;
+}
+
 .text li {
 	list-style: square;
 	margin: 0;
 	padding: 0;
+}
+
+.text img {
+	border-radius: 10px;
+	margin-bottom: 1em;
 }
 
 .g {
@@ -435,7 +451,7 @@ a.block:hover, a.block:focus {
 }
 
 .banner-container {
-	max-width: 60em;
+	max-width: 45em;
 	margin: 0 auto;
 	padding: 2em 1em;
 	overflow: hidden;
@@ -455,14 +471,25 @@ a.block:hover, a.block:focus {
 	line-height: 1.1;
 	text-align: left;
 	margin: 0;
+	padding-bottom: 0.2em;
 }
 
 .banner-content h1:after {
 	display: none;
 }
 
-.backtotop {
-	color: #666666;
+.btn {
+	background: #636e71;
+	color: #f9f5ef;
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0.7em 1em;
+	border-radius: 10px;
+}
+
+.btn:hover, .btn:focus {
+	background: #dd666c;
 }
 
 .quote {
@@ -472,11 +499,17 @@ a.block:hover, a.block:focus {
 	font-size: 0.9em;
 	color: #636e71;
 	padding: 1em;
-	width: 250px;
-	float: right;
-	margin: 0 0 1em 1.5em;
+	
 	display: block;
 	border-radius: 10px;
+}
+
+@media all and (min-width: 30em) {
+	.quote {
+		width: 300px;
+		float: right;
+		margin: 0 0 1em 1.5em;
+	}
 }
 
 .name {
@@ -491,6 +524,7 @@ a.block:hover, a.block:focus {
 	color: #f9f5ef;
 	padding: 1em;
 	border-radius: 10px;
+	clear: both;
 }
 
 .contact .events {
