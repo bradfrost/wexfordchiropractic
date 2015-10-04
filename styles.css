@@ -331,6 +331,13 @@ footer li {
 .three-d-consultation iframe {
 	display: none;
 }
+.cc-content {
+	padding-bottom: 0;
+}
+.cc-h1 {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
 
 @media all and (min-width: 30em) {
 	.g-2up {
@@ -502,6 +509,10 @@ a.block:hover, a.block:focus {
 	padding: 1em;
 	border-radius: 10px;
 	clear: both;
+}
+
+.callout a {
+	color: #abc5cd;
 }
 
 .contact .events {
